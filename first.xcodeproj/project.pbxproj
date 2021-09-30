@@ -13,6 +13,10 @@
 		F92B27EC268A04B6000BCC3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92B27D7268A04B4000BCC3C /* ContentView.swift */; };
 		F92B27ED268A04B6000BCC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92B27D8268A04B6000BCC3C /* Assets.xcassets */; };
 		F92B27EE268A04B6000BCC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92B27D8268A04B6000BCC3C /* Assets.xcassets */; };
+		F95C4CDD27064E09009D5938 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C4CDC27064E09009D5938 /* CircleImage.swift */; };
+		F95C4CDE27064E09009D5938 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C4CDC27064E09009D5938 /* CircleImage.swift */; };
+		F95C4CE027064F9D009D5938 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C4CDF27064F9D009D5938 /* MapView.swift */; };
+		F95C4CE127064F9D009D5938 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C4CDF27064F9D009D5938 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		F92B27E5268A04B6000BCC3C /* first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92B27E7268A04B6000BCC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F92B27E8268A04B6000BCC3C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F95C4CDC27064E09009D5938 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F95C4CDF27064F9D009D5938 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				F92B27D6268A04B4000BCC3C /* firstApp.swift */,
-				F92B27D7268A04B4000BCC3C /* ContentView.swift */,
 				F92B27D8268A04B6000BCC3C /* Assets.xcassets */,
+				F95C4CDB27064DCA009D5938 /* View */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -88,6 +94,16 @@
 				F92B27E8268A04B6000BCC3C /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		F95C4CDB27064DCA009D5938 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F92B27D7268A04B4000BCC3C /* ContentView.swift */,
+				F95C4CDC27064E09009D5938 /* CircleImage.swift */,
+				F95C4CDF27064F9D009D5938 /* MapView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F92B27EB268A04B6000BCC3C /* ContentView.swift in Sources */,
+				F95C4CE027064F9D009D5938 /* MapView.swift in Sources */,
 				F92B27E9268A04B6000BCC3C /* firstApp.swift in Sources */,
+				F95C4CDD27064E09009D5938 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F92B27EC268A04B6000BCC3C /* ContentView.swift in Sources */,
+				F95C4CE127064F9D009D5938 /* MapView.swift in Sources */,
 				F92B27EA268A04B6000BCC3C /* firstApp.swift in Sources */,
+				F95C4CDE27064E09009D5938 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +348,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.first;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.swiftuitut;
 				PRODUCT_NAME = first;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -349,7 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.first;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmed.swiftuitut;
 				PRODUCT_NAME = first;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
